@@ -26,7 +26,7 @@ void authenticate() async {
 
     UserCredential userCredential = await auth.signInWithEmailAndPassword(
       email: "mathieu.delehaye@gmail.com",
-      password: "7WMWZyCq5zNxVD3"
+      password: ""
     );
 
     final User? user = userCredential.user;
